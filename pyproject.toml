@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "higi"
-version = "0.1.0"
+version = "0.1.2"
 description = "The universal runtime resilience and self-healing engine for modern Python applications."
 readme = "README.md"
 requires-python = ">=3.8"
@@ -18,10 +18,14 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/sai8555/higi"
+Homepage = "https://github.com/sai8555/higi---module"
 
 [tool.hatch.build.targets.sdist]
 exclude = ["venv"]
 
 [tool.hatch.build.targets.wheel]
 exclude = ["venv"]
+
+
+
+
